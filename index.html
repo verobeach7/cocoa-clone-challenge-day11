@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="menu-bar">
+      <i class="menu-bar__menu fas fa-bars"></i>
+      <span class="menu-bar__name">library</span>
+      <a class="menu-bar__cart" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </header>
+    <div class="search">
+      <input class="search__bar" type="text" placeholder="Search books..." />
+      <div class="search__icon">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <main>
+      <div class="book every-containers">
+        <h1 class="title">Book of the day</h1>
+        <div class="book__wrapper">
+          <div class="book__img-wrapper">
+            <img class="book__img" src="images/captain-america.jpg" alt="" />
+          </div>
+
+          <div class="book__details">
+            <h2 class="book__title">Captain America</h2>
+            <h3 class="book__author">Jack Kirby, Joe Simon</h3>
+            <div class="book__stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star gray"></i>
+            </div>
+            <div class="btn-container">
+              <a class="btn journey-btn" href="#"><span>Journey</span></a>
+              <a class="btn biography-btn" href="#"><span>Biography</span></a>
+            </div>
+            <div class="btn-container">
+              <div class="bookmarker">
+                <i class="fas fa-bookmark"></i>
+              </div>
+              <a class="btn booking-btn" href="#"><span>Book Now</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="every-containers top-adventure">
+        <h1 class="title">Top Adventures</h1>
+        <div class="top-adventure-outer-container">
+          <div class="top-adventure-inner-container">
+            <div class="image-wrapper">
+              <img class="book-img" src="images/hulk.jpg" alt="cover" />
+            </div>
+            <div class="book__stars">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+            </div>
+          </div>
+          <div class="top-adventure-inner-container">
+            <div class="image-wrapper">
+              <img class="book-img" src="images/ironman.jpg" alt="cover" />
+            </div>
+            <div class="book__stars">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+            </div>
+          </div>
+          <div class="top-adventure-inner-container">
+            <div class="image-wrapper">
+              <img class="book-img" src="images/supergirl.jpg" alt="cover" />
+            </div>
+            <div class="book__stars">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+            </div>
+          </div>
+          <div class="top-adventure-inner-container">
+            <div class="image-wrapper">
+              <img class="book-img" src="images/xmen.jpg" alt="cover" />
+            </div>
+            <div class="book__stars">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="popular every-containers">
+        <h1 class="title">Popular authors</h1>
+        <div class="popular-author">
+          <div class="popular-author__img-wrapper">
+            <img
+              class="popular-author__img"
+              src="images/stanlee.jpg"
+              alt="author"
+            />
+          </div>
+          <div class="popular-author__detail">
+            <h2 class="popular-author__name">Who is Stan Lee?</h2>
+            <h3 class="popular-author__content">
+              The first superheroes Lee and artist Jack Kirby created together
+              were the Fantastic Four. The team's immediate popularity.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
