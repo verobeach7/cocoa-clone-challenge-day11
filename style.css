@@ -49,6 +49,10 @@ img {
   justify-content: space-between;
 }
 
+.menu-bar__menu {
+  cursor: pointer;
+}
+
 /* Search Bar */
 
 .search {
@@ -71,6 +75,7 @@ img {
   color: rgba(0, 0, 0, 0.2);
   position: relative;
   right: 40px;
+  cursor: pointer;
 }
 
 /* Book of the Day */
@@ -141,6 +146,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .booking-btn {
@@ -174,6 +180,7 @@ img {
   width: 23vw;
   height: 33vw;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .book__stars {
@@ -194,6 +201,7 @@ img {
 .popular-author__img {
   width: 30vw;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .popular-author__detail {
@@ -209,4 +217,8 @@ img {
 
 .popular-author__detail h3 {
   line-height: 1.4;
+}
+
+.popular-author__name {
+  cursor: pointer;
 }
